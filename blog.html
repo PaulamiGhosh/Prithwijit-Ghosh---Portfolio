@@ -3,6 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
 	<title>Blogs</title>
 <style type="text/css">
 	html{
@@ -61,7 +64,28 @@ fieldset div a{
 
 }
 
-@media (max-width: 390px)
+#contact{
+	display: inline-grid;
+    grid-template-columns: 30px 30px 30px auto;
+    text-align: center;
+    column-gap: 20px;
+}
+.fa-github{
+	color: white;
+}
+.fa-whatsapp{
+	color: lightgreen;
+}
+.fa-linkedin{
+	color: #4053E1;
+}
+footer{
+	color: white;
+	text-align: center;
+	font-size: 1.4rem;
+}
+
+@media (max-width: 450px)
 {
 	html{
 		font-size: 45%;
@@ -80,17 +104,22 @@ fieldset div a{
 	<legend>My Blogs</legend>
 	<div class="blog-1">
 		<img src="rain.gif" width="100" height="100">
-		<a href="#"><span>Meterological Data Analysis Using Python</span></a>
+		<a href="https://statgyan.wordpress.com/2022/07/30/data-analysis-for-meteorological-data/"><span>Meterological Data Analysis Using Python</span></a>
 	</div><br><hr>
 	<div class="blog-2">
 		<img  src="notebook.gif" width="100" height="100">
-	<a href=""><span>Recognition of Hand-Written Digits Using Python Sci-kit Learn</span></a>
+	<a href="https://statgyan.wordpress.com/2022/07/22/handwritten-digits-recognition/"><span>Recognition of Hand-Written Digits Using Python Sci-kit Learn</span></a>
 	</div><br><hr>
 	
 	<div class="blog-3">
-		<img src="decision-tree.png" width="100" height="100">
-	<a href="#"><span>Prediction Using Decision Tree Algorithm</span></a>
+		<img src="gmo.png" width="100" height="100">
+	<a href="https://statgyan.wordpress.com/2022/08/21/dna-analysis-classification/"><span>DNA Splicing Analysis Using Machine Learning Models</span></a>
 	</div>
 </fieldset>
+
+<footer><p id="contact">
+    <a href="https://www.linkedin.com/in/prithwijit-ghosh-571185219"><i class="fa fa-linkedin fa-lg"></i></a><a href="https://github.com/Prithwijit22
+"><i class="fa fa-github fa-lg"></i></a><a href="https://wa.me/qr/A7OH5MUQ6XE6L1
+"><i class="fa fa-whatsapp fa-lg"></i></a> &copy By Polo 2022, All Rights Are Reserved </p></footer>
 </body>
 </html>
