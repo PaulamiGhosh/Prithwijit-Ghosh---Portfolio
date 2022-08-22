@@ -19,8 +19,9 @@
 			
 		}
 body{
-	background: linear-gradient(#091045,black);
+	background: url(bg2.png);
 	overflow: auto;
+	
 }
 ul li{
 	display: inline-block;
@@ -45,13 +46,10 @@ fieldset{
 	font-size: 3rem;
 	font-family: sans-serif;
 	font-weight: bolder;
-	text-shadow: 3px 3px 5px black;
+	text-shadow: 1px 1px 10px black;
 
-
-	padding-left: 3rem;
-	margin:0rem 10rem 10rem 10rem ;
-	padding-top: 5rem;
-	margin-bottom: 5rem;
+	border: none;
+	
 	box-shadow: inset 0 0 3rem white;
 }
 legend{
@@ -70,19 +68,53 @@ fieldset ul li{
 fieldset ul li a{
 color: #DEFA7C;
 font-size: 2.4rem;
-font-style: oblique;
+
 font-family: serif;
 }
 fieldset ul{
 	margin: 1rem;
-	margin-left: 2rem;
+	margin-left: 0rem;
 }
 
 img{
-	border: 2px solid black;
+	padding: 0.5rem;
 	box-shadow: 3px 2px 5px white;
 }
+#contact{
+	display: inline-grid;
+    grid-template-columns: 30px 30px 30px auto;
+    text-align: center;
+    column-gap: 20px;
+}
+.fa-github{
+	color: white;
+}
+.fa-whatsapp{
+	color: lightgreen;
+}
+.fa-linkedin{
+	color: #4053E1;
+}
+footer{
+	color: white;
+	text-align: center;
+	font-size: 1.4rem;
+}
 
+@media (max-width: 450px)
+{
+	html{
+		font-size: 45%;
+	}
+fieldset ul{
+	margin: 0rem;
+	margin-left: -2rem;
+}
+fieldset{
+	padding: 0rem;
+	margin: 0rem;
+}
+}
 
 
 </style>
@@ -97,7 +129,7 @@ img{
 	<fieldset>
 		<legend>My Certifications</legend>
 		<ul>
-			<li><img src="coursera.png" width="90" height="50"> Coursera Certifications (6)</li>
+			<li><img src="coursera.png" width="90" height="50"> Coursera Certifications (9)</li>
 				<ul>
 					<li><a href="https://coursera.org/share/7cebfbeb74e59b7016818a678a65f2ec">Data Analysis with R Programming</a></li>
 					<li><a href="https://www.coursera.org/account/accomplishments/verify/WW4ELHMC23AS">Programming for Everybody (Getting Started with Python)</a></li>
@@ -105,27 +137,55 @@ img{
 					<li><a href="https://www.coursera.org/account/accomplishments/verify/JN5N2QBGTD2X">Python Data Structures</a></li>
 					<li><a href="https://www.coursera.org/account/accomplishments/verify/JECSNQP8PCZE">Mathematics for Machine Learning: Linear Algebra</a></li>
 					<li><a href="https://www.coursera.org/account/accomplishments/verify/3FS374Z43B75">Code Free Data Science</a></li>
+					<li><a href="https://www.coursera.org/account/accomplishments/verify/GSJ2X9YUDNCB">Learn to Program: The Fundamentals</a></li>
+					<li><a href="https://www.coursera.org/account/accomplishments/verify/WV9D8S925WP8">Analyze Survey Data using Principal Component Analysis</a></li>
+					<li><a href="https://www.coursera.org/account/accomplishments/verify/7ZYVU367R663">Overview of Data Visualization</a></li>
+
 				</ul><hr>
-			<li><img src="ibm.png" width="90" height="50" > IBM Certifications</li>
+			<li><img src="ibm.png" width="90" height="50" > IBM Certifications (3)</li>
 				<ul>
-					<li>python</li>
-					<li>python</li>
-					<li>python</li>
-				</ul>
+					<li><a href="https://courses.cognitiveclass.ai/certificates/6fb99e646699496fa650f925715860cc">Data Visualization with Python</a></li>
+					<li><a href="https://courses.cognitiveclass.ai/certificates/821ac36a123944339454cab7542aeba0">Python 101 for Data Science</a></li>
+					<li><a href="https://courses.cognitiveclass.ai/certificates/cb01a03ac3fc4b1a9337d7b67c0e9d71">Data Analysis with Python</a></li>
+				</ul><hr>
+
 			<li><img src="datacamp.png" width="90" height="50"> DataCamp Certifications</li>
 				<ul>
 					<li>python</li>
 					<li>python</li>
 					<li>python</li>
-				</ul>
-			<li><img src="udemy.png"width="90" height="50"> Udemy Certifications</li>
+				</ul><hr>
+			<li><img src="udemy.png"width="90" height="50"> Udemy Certifications (1)</li>
 				<ul>
-					<li>python</li>
-					<li>python</li>
-					<li>python</li>
+					<li><a href="https://www.udemy.com/certificate/UC-bd8150a7-8dc6-4fb6-9859-6160dcd7eda5/">Modern Zooming PowerPoint Presentations within Minutes! </a></li>
+					<li><a href="#"></a></li>
+
+				</ul><hr>
+			<li><img src="gl.png"width="90" height="50"> Great Learning Certifications (7)</li>
+				<ul>
+					<li><a href="https://olympus1.mygreatlearning.com/course_certificate/FXSBZQGC">Python Tkinter</a></li>
+					<li><a href="https://olympus1.mygreatlearning.com/course_certificate/QMSINSCB">Python Seaborn</a></li>
+					<li><a href="https://olympus1.mygreatlearning.com/course_certificate/URPMIPSD">Python Matplotlib</a></li>
+					<li><a href="https://olympus1.mygreatlearning.com/course_certificate/JCPYRTIB">Data Visualization using Tableau</a></li>
+					<li><a href="https://olympus1.mygreatlearning.com/course_certificate/YDPZYONR">Pokémon Trainer using R</a></li>
+					<li><a href="https://olympus1.mygreatlearning.com/course_certificate/AVULYLTC">C++ Tutorial</a></li>
+					<li><a href="https://olympus1.mygreatlearning.com/course_certificate/KEXJSINE">Python for Machine Learning</a></li>
+
 				</ul>
 			
 		</ul>
 	</fieldset>
+
+	<fieldset>
+		<legend>My Virtual Expriences</legend>
+		<ul>
+			<li></li>
+		</ul>
+	</fieldset>
+
+<footer><p id="contact">
+    <a href="https://www.linkedin.com/in/prithwijit-ghosh-571185219"><i class="fa fa-linkedin fa-lg"></i></a><a href="https://github.com/Prithwijit22
+"><i class="fa fa-github fa-lg"></i></a><a href="https://wa.me/qr/A7OH5MUQ6XE6L1
+"><i class="fa fa-whatsapp fa-lg"></i></a> &copy By Polo 2022, All Rights Are Reserved </p></footer>
 </body>
 </html>
